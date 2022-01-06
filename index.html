@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Custom Css -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+
     <title>Personal Website</title>
   </head>
   <body>
@@ -14,32 +17,127 @@
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#shape">Shape</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="container">
+    <main>
+      <!-- ABOUT AREA -->
       <section id="about">
-        <!-- ABOUT TITLE -->
-        <div class="about__title">
-          <div class="text">
-            <h1>Hello, I'm <span class="main__color">Rob Davidson</span></h1>
-            <p>
-              A full stack allaround designer that placerat <br />
-              in massa consectetur
-            </p>
-            <button>Hire me</button>
+        <div class="container">
+          <!-- ABOUT TITLE -->
+          <div class="about__area about__title">
+            <div class="text">
+              <h1>Hello, I'm <span class="main__color">Rob Davidson</span></h1>
+              <p>
+                A full stack allaround designer that placerat <br />
+                in massa consectetur
+              </p>
+              <button class="color__btn">Hire me</button>
+            </div>
+            <div class="image">
+              <img src="./images/profile-1.png" alt="Profile One" />
+            </div>
           </div>
-          <div class="image">
-            <img src="./images/profile-1.png" alt="Profile One" />
+
+          <!-- ABOUT DESCRIPTION -->
+          <div class="about__area about__desc">
+            <div class="image">
+              <img src="./images/profile-2.png" alt="Profile One" />
+            </div>
+            <div class="text">
+              <h2 class="title">About</h2>
+              <p>
+                A full stack allaround designer that placerat <br />
+                in massa consectetur
+              </p>
+              <button class="color__btn">Hire me</button>
+            </div>
           </div>
         </div>
+      </section>
 
-        <!-- ABOUT DESCRIPTION -->
-        <div class="about__desc"></div>
+      <!-- WORK AREA -->
+      <section class="work__area" id="work">
+        <div class="container">
+          <h2 class="title">
+            <span class="main__color">LASTET</span> WORKING PROJECT
+          </h2>
+
+          <div class="work_blog">
+            <article>
+              <div class="image">
+                <img src="./images/blog-1.png" alt="blog-1" />
+              </div>
+              <div class="work__desc">
+                <h4>Power-x-gym (gym website)</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </article>
+            <article>
+              <div class="image">
+                <img src="./images/blog-2.png" alt="blog-2" />
+              </div>
+              <div class="work__desc">
+                <h4>Power-x-gym (gym website)</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </article>
+            <article>
+              <div class="image">
+                <img src="./images/blog-3.png" alt="blog-3" />
+              </div>
+              <div class="work__desc">
+                <h4>Power-x-gym (gym website)</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SHAPE AREA -->
+      <section class="shape" id="shape">
+        <div class="container">
+          <div class="shape__image">
+            <img src="./images/shapes.png" alt="shapes" />
+            <div class="shape__desc">
+              <h2>Work Inquiry</h2>
+              <button class="color__btn">Let’s Chat</button>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+
+    <footer id="contact">
+      <h5>Stay connected</h5>
+      <h4>hello@design.com</h4>
+
+      <div class="social__contact">
+        <a href="https://github.com/hossainrabbi" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/hossainrabbibd" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/hossainrabbibd" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="./js/all.min.js"></script>
   </body>
 </html>
