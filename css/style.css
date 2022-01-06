@@ -279,13 +279,74 @@ footer .social__contact a:hover {
 }
 
 @media (max-width: 768px) {
+  .about__title .text h1 {
+    font-size: 60px;
+  }
+
   .about__area {
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+
+  .about__area .image {
+    justify-self: center;
+  }
+
+  .about__desc {
+    margin-top: 100px;
+  }
+
+  .about__desc .image {
+    grid-row: 2;
+  }
+
+  .about__desc .text {
+    grid-row: 1;
+  }
+
+  .shape .shape__image {
+    width: 100%;
+  }
+
+  .shape .shape__desc h2 {
+    font-size: 45px;
   }
 }
 
 @media (max-width: 576px) {
+  button {
+    padding: 8px 10px;
+  }
+
+  .navbar ul {
+    justify-content: center;
+  }
+
+  .about__title .text h1 {
+    font-size: 50px;
+  }
+
   .work__area .work_blog {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about__area .image {
+    width: 100%;
+  }
+
+  .shape .shape__desc h2 {
+    font-size: 25px;
+  }
+
+  footer {
+    margin-bottom: 20px;
+  }
+
+  footer h5 {
+    font-size: 20px;
+  }
+
+  footer h4 {
+    font-size: 28px;
   }
 }
